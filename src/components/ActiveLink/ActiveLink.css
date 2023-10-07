@@ -1,0 +1,9 @@
+.active {
+    font-weight: 400;
+    color: rgb(249 115 22);
+    font-weight: bold;
+}
+
+.deActive:hover {
+    color: rgb(249 115 22);
+}
