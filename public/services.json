@@ -1,0 +1,58 @@
+[
+    {
+      "id": 1,
+      "image": "https://i.ibb.co/NSqbxCK/1-Product-Launch-Consultation.webp",
+      "title": "Product Launch Consultation",
+      "price" : 299,
+      "description": "Our Product Launch Consultation service is designed to ensure the success of your product launch. With years of experience in the industry, our team of experts is ready to provide you with personalized guidance and strategies. We will work closely with you to understand your product, target audience, and market trends. From setting clear goals to crafting a detailed launch plan, we will help you navigate every step of the process. Our goal is to maximize your product's impact and ensure a smooth and successful launch."
+    },
+    {
+      "id": 2,
+      "image": "https://i.ibb.co/K768SpZ/2-Event-Promotion.webp",
+      "title": "Event Promotion",
+      "price" : 432,
+      "description": "At [Your Company Name], we understand the importance of creating buzz and excitement around your product launch event. Our Event Promotion service is designed to ensure that your event gets the attention it deserves. We offer a comprehensive range of event promotion strategies tailored to your specific needs. From online marketing campaigns to targeted outreach, we have the tools and expertise to attract your target audience and create a memorable event experience."
+    },
+    {
+      "id": 3,
+      "image": "https://i.ibb.co/Lk95k9D/3-Product-Showcase.jpg",
+      "title": "Product Showcase",
+      "price" : 300,
+      "description": "A captivating product showcase is essential for making a lasting impression on your audience. At [Your Company Name], we specialize in creating stunning product presentations that highlight your product's unique features and benefits. Our Product Showcase service combines design expertise with marketing savvy to create a visually appealing and informative showcase that captures the essence of your product."
+    },
+    {
+      "id": 4,
+      "image": "https://i.ibb.co/9WXcYj1/4-Digital-Marketing.jpg",
+      "title": "Digital Marketing",
+      "price" : 250,
+      "description": "In today's digital age, effective digital marketing is crucial for the success of your product launch. At [Your Company Name], we offer a comprehensive Digital Marketing service that covers all aspects of online promotion. Our team of digital marketing experts will create and execute a tailored marketing strategy that maximizes your product's online presence and drives results."
+    },
+    {
+      "id": 5,
+      "image": "https://i.ibb.co/Ytbz72W/5-Social-Media-Promotion.jpg",
+      "title": "Social Media Promotion",
+      "price" : 400,
+      "description": "Social media is a powerful platform for promoting your product launch, and our Social Media Promotion service is designed to help you make the most of it. We understand the nuances of social media marketing and can create a tailored strategy that engages your target audience and generates excitement around your product."
+    },
+    {
+      "id": 6,
+      "image": "https://i.ibb.co/MNXcmMV/6-Product-Video-Production.jpg",
+      "title": "Product Video Production",
+      "price" : 200,
+      "description": "Video is a powerful medium for showcasing your product and creating a memorable impact. Our Product Video Production service is here to help you create compelling product videos that captivate your audience. Our team of videographers, scriptwriters, and editors will work together to produce high-quality videos that highlight your product's unique features and benefits."
+    },
+    {
+      "id": 7,
+      "image": "https://i.ibb.co/SBB1ydH/7-Website-Development.jpg",
+      "title": "Website Development",
+      "price" : 345,
+      "description": "Launch a dedicated website for your product! Our Website Development service creates user-friendly, informative, and visually appealing websites that showcase your product and create a strong online presence."
+    },
+    {
+      "id": 8,
+      "image": "https://i.ibb.co/1qKyTXK/8-Market-Research-and-Analysis.jpg",
+      "title": "Market Analysis",
+      "price" : 235,
+      "description": "Gain valuable insights into your target market with our Market Research and Analysis service. We'll help you understand consumer behavior, market trends, and competitor strategies, providing you with a competitive edge for your product launch."
+    }
+  ]
