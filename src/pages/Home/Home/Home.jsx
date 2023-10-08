@@ -1,11 +1,15 @@
 import Banner from "../Banner/Banner";
+import NewsletterSignup from "../NewsletterSignup/NewsletterSignup";
+import OurTeam from "../OurTeam/OurTeam";
 import Services from "../Services/Services";
 
 const Home = () => {
     return (
         <div>
-            <Banner/>
-            <Services/>
+            <Banner />
+            <Services />
+            <OurTeam />
+            <NewsletterSignup />
         </div>
     );
 };
