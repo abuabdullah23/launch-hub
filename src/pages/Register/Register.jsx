@@ -24,6 +24,18 @@ const Register = () => {
         const password = form.password.value;
         const photoURL = form.photoURL.value;
 
+        // condition for strong password
+        if (password.length < 6) {
+            toast.error('Password must be 6 characters.')
+            return;
+        } else if (!/(?=.*[A-Z])/.test(password)) {
+            toast.error('Please include one capital letter.');
+            return;
+        } else if (!/(?=.*[!@#$&*])/.test(password)) {
+            toast.error('Please add a special character.');
+            return;
+        }
+
         createUser(email, password)
             .then(res => {
                 toast.success('Registration Successful');
