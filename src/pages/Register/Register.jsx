@@ -8,7 +8,7 @@ import { toast } from 'react-toastify';
 
 const Register = () => {
     const [seePass, setSeePass] = useState(true);
-    const { loading, setLoading, createUser } = useAuth();
+    const { loading, setLoading, createUser, handleUpdateProfile } = useAuth();
 
     // redirect after register to target page
     const location = useLocation();
@@ -22,7 +22,7 @@ const Register = () => {
         const email = form.email.value;
         const name = form.name.value;
         const password = form.password.value;
-        const photoURL = form.photoURL.value;
+        const photo = form.photo.value;
 
         // condition for strong password
         if (password.length < 6) {
@@ -38,8 +38,11 @@ const Register = () => {
 
         createUser(email, password)
             .then(res => {
-                toast.success('Registration Successful');
-                navigate(from, { replace: true })
+                handleUpdateProfile(name, photo)
+                    .then(() => {
+                        toast.success('Registration Successful');
+                        navigate(from, { replace: true })
+                    })
             })
             .catch(error => {
                 toast.error(error.message)
@@ -105,8 +108,8 @@ const Register = () => {
                                 required
                                 type="text"
                                 placeholder="Photo Url"
-                                id="photoURL"
-                                name="photoURL"
+                                id="photo"
+                                name="photo"
                                 className="px-3 py-2 outline-none border border-slate-700 bg-transparent rounded-md focus:border-gray-400 overflow-hidden" />
                         </div>
 
