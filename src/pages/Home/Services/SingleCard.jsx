@@ -10,7 +10,7 @@ const SingleCard = ({ service }) => {
             <div className='p-3 flex flex-col gap-[2px] items-start text-left'>
                 <h2 className='text-lg font-semibold'>{title}</h2>
                 <p className='text-lg font-semibold text-orange-500'>Price: ${price}</p>
-                <p className='text-base'>{description.slice(0, 50)}...</p>
+                <p className='text-base'>{description.slice(0, 48)}...</p>
                 <Link
                     to={`/service/details/${id}`}
                     className='w-full py-1 px-3 text-center rounded-full bg-gray-600 mt-2 text-white hover:bg-gray-800 transition-all'>View Details</Link>
