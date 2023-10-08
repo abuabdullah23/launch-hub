@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import SingleCard from './SingleCard';
+import SectionTitle from '../../../components/SectionTitle/SectionTitle';
 
 const Services = () => {
     const [services, setServices] = useState([]);
@@ -11,10 +12,9 @@ const Services = () => {
     }, [])
 
     return (
-        <div className='my-12'>
-            <h3 className='text-center text-2xl text-orange-500 font-semibold'>
-                Services
-            </h3>
+        <div className='mt-16'>
+            <SectionTitle sectionTitle={'Services'} sectionDescription={'Our services encompass everything from strategic planning and consultation to creative marketing, event management, and digital promotion.'} />
+
             <div className='mt-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6'>
                 {
                     services.map((service) => <SingleCard

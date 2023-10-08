@@ -6,7 +6,7 @@ import ActiveLink from '../../../components/ActiveLink/ActiveLink';
 import { FaList } from 'react-icons/fa';
 
 const Navbar = () => {
-    const user = 'null';
+    const user = null;
     const [show, setShow] = useState(false);
 
     return (
