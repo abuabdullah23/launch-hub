@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "image": "https://i.ibb.co/0C0fsV5/1-Smartphone-X1.jpg",
+        "product_name": "Smartphone X1",
+        "description": "Introducing the all-new Smartphone X1, a revolutionary device packed with cutting-edge features. From its stunning display to its powerful performance, this smartphone redefines the mobile experience.",
+        "price": 699,
+        "features": [
+            "6.5-inch Super AMOLED display",
+            "Quad-camera system with 48MP main lens",
+            "Fast-charging technology for quick power-ups"
+        ]
+    },
+    {
+        "id": 2,
+        "image": "https://i.ibb.co/jV8Ckqm/2-Smart-Home-Hub.webp",
+        "product_name": "Smart Home Hub",
+        "description": "Transform your home with our Smart Home Hub. Control your lights, appliances, and security with ease using your smartphone or voice commands. Experience the future of home automation today.",
+        "price": 299,
+        "features": [
+            "Connects to a wide range of smart devices",
+            "Voice-activated virtual assistant",
+            "Energy-efficient and eco-friendly"
+        ]
+    },
+    {
+        "id": 3,
+        "image": "https://i.ibb.co/jzjVszK/3-Fitness-Tracker-Pro.jpg",
+        "product_name": "Fitness Tracker Pro",
+        "description": "Achieve your fitness goals with the Fitness Tracker Pro. Monitor your heart rate, track your workouts, and stay connected on the go. Stay healthy and motivated with this sleek wearable.",
+        "price": 129,
+        "features": [
+            "Continuous heart rate monitoring",
+            "GPS tracking for outdoor activities",
+            "Notifications for calls and messages"
+        ]
+    },
+    {
+        "id": 4,
+        "image": "https://i.ibb.co/R7rwn9Z/4-Gaming-Console-X2.jpg",
+        "product_name": "Gaming Console X2",
+        "description": "Get ready for an immersive gaming experience with Gaming Console X2. With stunning graphics and an extensive library of games, it's the ultimate gaming console for enthusiasts.",
+        "price": 499,
+        "features": [
+            "4K Ultra HD graphics",
+            "Multiplayer online gaming support",
+            "Intuitive motion-sensing controllers"
+        ]
+    },
+    {
+        "id": 5,
+        "image": "https://i.ibb.co/Q6bgzCD/5-Smart-Speaker-Pro.jpg",
+        "product_name": "Smart Speaker Pro",
+        "description": "Elevate your audio experience with the Smart Speaker Pro. It's not just a speaker; it's your voice-activated assistant, music hub, and smart home controller all in one.",
+        "price": 199,
+        "features": [
+            "High-fidelity sound quality",
+            "Voice commands for music and more",
+            "Integration with popular streaming services"
+        ]
+    },
+    {
+        "id": 6,
+        "image": "https://i.ibb.co/WB2B3h2/6-Camera-Drone-Plus.jpg",
+        "product_name": "Camera Drone Plus",
+        "description": "Capture breathtaking aerial footage with our Camera Drone Plus. Whether you're a professional photographer or an enthusiast, this drone takes your photography to new heights.",
+        "price": 399,
+        "features": [
+            "4K camera with gimbal stabilization",
+            "Intelligent flight modes for easy control",
+            "Long-lasting battery for extended flights"
+        ]
+    }
+]
