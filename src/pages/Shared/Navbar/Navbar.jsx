@@ -4,10 +4,18 @@ import { allNav } from './NavItem';
 import { Link } from 'react-router-dom';
 import ActiveLink from '../../../components/ActiveLink/ActiveLink';
 import { FaList } from 'react-icons/fa';
+import useAuth from '../../../hooks/useAuth';
+import { toast } from 'react-toastify';
 
 const Navbar = () => {
-    const user = null;
+    const { user, logOut } = useAuth();
     const [show, setShow] = useState(false);
+
+    // handleLogOut
+    const handleLogOut = () => {
+        logOut()
+        toast.success('Logout Successful!')
+    }
 
     return (
         <div className='sticky top-0 z-10 shadow py-3 bg-white'>
@@ -51,8 +59,9 @@ const Navbar = () => {
                         {
                             user ? <>
                                 <div className='flex items-center gap-3'>
-                                    <img className='h-8 w-8 rounded-full' src="https://cdn-icons-png.flaticon.com/512/149/149071.png" alt="user image" />
-                                    <button className='text-gray-600 hover:text-red-500 font-semibold'>Log Out</button>
+                                    <img className='h-8 w-8 rounded-full' src={user?.photoURL ? user?.photoURL
+                                        : 'https://w7.pngwing.com/pngs/81/570/png-transparent-profile-logo-computer-icons-user-user-blue-heroes-logo-thumbnail.png'} alt="user image" title={user?.displayName} />
+                                    <button onClick={handleLogOut} className='text-gray-600 hover:text-red-500 font-semibold'>Log Out</button>
                                 </div>
                             </> : <>
                                 <Link className='text-gray-600 hover:text-orange-500 font-semibold' to={'/login'}>Log In</Link>

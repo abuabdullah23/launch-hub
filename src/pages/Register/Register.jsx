@@ -1,12 +1,19 @@
 import React, { useState } from 'react';
 import SocialLogin from '../../components/SocialLogin/SocialLogin';
-import { Link } from 'react-router-dom';
+import { Link, useLocation, useNavigate } from 'react-router-dom';
 import Loader from '../../components/Loader/Loader';
 import { FiEye, FiEyeOff } from 'react-icons/fi';
+import useAuth from '../../hooks/useAuth';
+import { toast } from 'react-toastify';
 
 const Register = () => {
     const [seePass, setSeePass] = useState(true);
-    const { loading } = false;
+    const { loading, setLoading, createUser } = useAuth();
+
+    // redirect after register to target page
+    const location = useLocation();
+    const navigate = useNavigate();
+    const from = location.state?.from?.pathname || '/';
 
     // handle registration form value
     const handleSubmitForm = (event) => {
@@ -16,13 +23,16 @@ const Register = () => {
         const name = form.name.value;
         const password = form.password.value;
         const photoURL = form.photoURL.value;
-        const registerData = {
-            email,
-            name,
-            password,
-            photoURL
-        }
-        console.log(registerData);
+
+        createUser(email, password)
+            .then(res => {
+                toast.success('Registration Successful');
+                navigate(from, { replace: true })
+            })
+            .catch(error => {
+                toast.error(error.message)
+                setLoading(false);
+            })
     }
 
     return (
