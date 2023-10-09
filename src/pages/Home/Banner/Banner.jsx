@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 const Banner = () => {
     return (
-        <div className='relative'>
+        <div className='relative' data-aos="fade-up" data-aos-duration="1000">
             <img className='w-full h-[336px] lg:h-[512px] object-cover' src="https://i.ibb.co/998kcg7/launch-hub-banner1.jpg" alt="Banner Image" />
 
             <div className='w-full h-full bg-gradient-to-b from-[#000000] to-[#111155b9] absolute top-0'>

@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 const Footer = () => {
     return (
-        <div className='bg-gray-800 text-gray-100'>
+        <div className='bg-gray-800 text-gray-100' data-aos="fade-up" data-aos-duration="1000">
             <Container>
                 <footer className="px-4 mt-32 divide-y dark:bg-gray-800 dark:text-gray-100">
                     <div className="container flex flex-col justify-between py-10 mx-auto space-y-8 lg:flex-row lg:space-y-0">

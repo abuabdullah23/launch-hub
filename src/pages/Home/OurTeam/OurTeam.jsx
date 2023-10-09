@@ -3,7 +3,7 @@ import SectionTitle from '../../../components/SectionTitle/SectionTitle';
 
 const OurTeam = () => {
     return (
-        <div className='mt-32'>
+        <div className='mt-32' data-aos="fade-up" data-aos-duration="1000">
             <SectionTitle sectionTitle={'Our Team'} sectionDescription={`At LaunchHub, our success is driven by the exceptional team of professionals who are passionate about turning your product launch dreams into reality.`}/>
 
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 mt-12'>

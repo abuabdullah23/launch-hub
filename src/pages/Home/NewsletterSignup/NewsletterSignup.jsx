@@ -3,7 +3,7 @@ import SectionTitle from '../../../components/SectionTitle/SectionTitle';
 
 const NewsletterSignup = () => {
     return (
-        <div className='mt-32'>
+        <div className='mt-32' data-aos="fade-up" data-aos-duration="1000">
             <SectionTitle sectionTitle={'Newsletter Signup'} sectionDescription={`Join our newsletter to stay informed about the latest industry trends, expert insights, and exclusive updates. Be the first to know about upcoming product launches and events.`} />
 
             <div className='mt-12 text-center'>
